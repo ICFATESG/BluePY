@@ -12,9 +12,17 @@ for Linux:
     pip install pybluez gattlib
     pip install request
     pip install pyrebase
+    pip install time
+    pip install flask
+    pip install threading
+
+
 for Windows:
     https://pypi.python.org/packages/dd/3b/2f6562867e822d862657ff4279ba5e668248670113eb0a71eef4b5948f1c/PyBluez-0.22.win32-py2.7.exe#md5=edef8eb3d2bd896188de88c57970fce3md5=edef8eb3d2bd896188de88c57970fce3
     pip install pybluez
     pip install pybluez gattlib
     pip install request
     pip install pyrebase
+    pip install time
+    pip install flask
+    pip install threading
