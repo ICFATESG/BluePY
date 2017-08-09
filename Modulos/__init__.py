@@ -10,7 +10,7 @@ app = Flask(__name__)
 class Th(Thread):
     def __init__(self, num):
         Thread.__init__(self)
-        #self.num = num
+
 
 
     def run(self):
