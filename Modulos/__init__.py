@@ -4,8 +4,9 @@ from flask import Flask
 from threading import Thread
 from time import sleep
 import bluePy
+from flask_cors import CORS
 app = Flask(__name__)
-
+CORS(app)
 
 class Th(Thread):
     def __init__(self, num):
@@ -27,7 +28,8 @@ a.start()
 
 @app.route('/macs', methods=['GET'])
 def get_tasks():
-    return bluePy.mac
+    return bluePy.mac4tr
+    
 
 if __name__ == '__main__':
     app.run()
