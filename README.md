@@ -13,7 +13,6 @@ Dependencies : PyBluez,Firebase,Time,Json,DateTime,Request
     * pip install pybluez
     * pip install pybluez gattlib
     * pip install request
-    * pip install pyrebase
     * pip install time
     * pip install flask
     * pip install threading
@@ -24,7 +23,6 @@ Dependencies : PyBluez,Firebase,Time,Json,DateTime,Request
     * pip install pybluez
     * pip install pybluez gattlib
     * pip install request
-    * pip install pyrebase
     * pip install time
     * pip install flask
     * pip install threading
